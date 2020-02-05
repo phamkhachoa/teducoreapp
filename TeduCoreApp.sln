@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreApp.Data.EF", "Tedu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduCoreApp.Application", "TeduCoreApp.Application\TeduCoreApp.Application.csproj", "{4B46FC19-C97C-4BEA-8E07-18BC836FDDEB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{3824CCE5-8B5D-4107-B075-FFEB8EE54B46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{AEBC37F6-0FA7-4802-B7F6-D13E2637C662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{8A747EAE-5E46-4FDE-94A7-CF07DCAB58E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{A1211459-7635-4785-9CD4-A39CA2728059}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +56,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EA6530B-9F27-49EB-A431-33177FD1DBEE} = {3824CCE5-8B5D-4107-B075-FFEB8EE54B46}
+		{96F59D65-4066-4BA4-BF8F-6DEEBE7A4F9E} = {A1211459-7635-4785-9CD4-A39CA2728059}
+		{A8BC057B-67AA-4EC2-99FD-1583FCAD7B9E} = {A1211459-7635-4785-9CD4-A39CA2728059}
+		{454DE0ED-CCBA-49A9-A770-DCCC376EE578} = {8A747EAE-5E46-4FDE-94A7-CF07DCAB58E0}
+		{52D2BC62-C186-4B30-86A5-8A0E70E281D7} = {8A747EAE-5E46-4FDE-94A7-CF07DCAB58E0}
+		{4B46FC19-C97C-4BEA-8E07-18BC836FDDEB} = {AEBC37F6-0FA7-4802-B7F6-D13E2637C662}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E97DC0F6-6E26-4B0D-83AA-347F8ED41B16}
